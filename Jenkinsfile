@@ -3,7 +3,6 @@ pipeline {
 
     tools {
         gradle 'gradle_new'
-        docker 'docker'
     }
     
     stages {
