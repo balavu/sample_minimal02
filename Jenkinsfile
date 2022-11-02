@@ -24,18 +24,5 @@ pipeline {
                 sh 'gradle artifactoryPublish'
             }
         }
-        
-        stage('Build-2') {
-            steps {
-                sh 'gradle build'
-            }
-
-        }
-
-        stage('build docker image'){
-            steps{
-                sh 'docker build -t bala/docker-sample .'
-            }
-        }
     }
 }
