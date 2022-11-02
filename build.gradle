@@ -12,7 +12,7 @@ buildscript {
 allprojects {
     repositories {
         maven {
-            url "http://18.237.249.81:8081/artifactory/gradle-dev/"
+            url "https://balavu.jfrog.io/artifactory/test-gradle-dev/"
         }
     }
 }
